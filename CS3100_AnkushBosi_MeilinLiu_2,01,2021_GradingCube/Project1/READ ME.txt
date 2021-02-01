@@ -1,0 +1,44 @@
+CS3100/5100: Data Structures and Algorithms
+Spring 2021
+Programming Assignment #1
+Name - Ankush Bosi
+UID - U01015416
+
+parent folder name - CS3100_AnkushBosi_MelinLiu
+child folder name - Project1
+
+The whole program is written in single file the name of the file is main.cpp
+The text files which are created are inside the debug folder [PATH- CS3100_AnkushBosi_MeilinLiu_2,01,2021_GradingCube\Project1\Debug]
+The Names for files are 
+1 input_1.txt
+2 input_2.txt
+3 all.last.txt
+
+In main.cpp file there are four functions 
+
+int menu();
+int reading_From_Keyboard();
+int reading_From_InputFile();
+int string_Comparision();
+
+
+menu();
+this function takes no arguemnets and display the menu 
+
+int reading_From_Keyboard();
+this function is used to read the names from the user and write to the file "input_1.txt" 
+The number of names to be read should be with in the range of 10 to 99
+The names which the user enters will be stored in a file called "input_1.txt" under the debug folder
+
+int reading_From_InputFile();
+This fucntion is used to read the names from the existing file name "all.last.txt" whih is under the debug folder.
+This function asks the user to enter the range of names he want to read from the file and the range is for 10 to 99
+Eg: If the user enters the value 20, 20 names from the file "all.last.text" will be displayed on the screeen and simultaneously it weill also stored in the file name "input_2.txt".
+
+int string_Comparision();
+This is string comparrsion function this will ask the user to enter two strings and the result is displyed on the screen 
+
+
+
+
+
